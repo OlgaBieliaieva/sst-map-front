@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans") url("/fonts/OpenSans-Light.ttf") format("ttf")
+    url("/fonts/OpenSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans") url("/fonts/OpenSans-Regular.ttf") format("ttf")
+    url("/fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans") url("/fonts/OpenSans-Medium.ttf") format("ttf")
+    url("/fonts/OpenSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans") url("/fonts/OpenSans-Bold.ttf") format("ttf")
+    url("/fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans") url("/fonts/OpenSans-ExtraBold.ttf") format("ttf")
+    url("/fonts/OpenSans-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: local("Ubuntu") url("/fonts/Ubuntu-Bold.ttf") format("ttf")
+    url("/fonts/Ubuntu-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  padding: 0;
+
+  background-color: inherit;
+  border: inherit;
+
+  outline: none;
+  cursor: pointer;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  outline: none;
+  border: none;
+  background-color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+img {
+  display: block;
+  height: auto;
+}

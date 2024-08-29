@@ -1,0 +1,12 @@
+.infoContainer {
+  max-width: 800px;
+}
+.text {
+  position: relative;
+  color: #ffffff;
+}
+.textItem {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+}
